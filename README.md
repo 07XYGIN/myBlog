@@ -10,9 +10,8 @@
 - 代码规范工具: Prettier
 - 前端打包工具 : WebPack
 - 前端测试工具 : Python
-- api接口测试工具:Python-Requests
-- 使用axios与后端api通信
-- 使用Redux进行状态管理
+- api 接口测试工具:Python-Requests
+- 使用 axios 与后端api通信
+- 使用 Redux 进行状态管理
 - 使用 React Router 处理路由
-- 使用 Sass 预处理器编写样式
-- 使用Python语言进行前端测试
+- 使用 Sass  预处理器编写样式
