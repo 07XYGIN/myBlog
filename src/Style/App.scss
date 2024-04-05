@@ -1,6 +1,32 @@
 .container{
-  width: 1300px;
-  margin: auto;
-  height: 50px;
-  background-color: var(--primary-color);
+  width: 1200px;
+  margin: 20px auto;
+  img{
+    border-radius: 20px;
+  }
+  .user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+      display: flex;
+      p{
+        line-height: 60px;
+        margin-left: 20px ;
+        color: var(--text-color);
+      }
+    }
+    .right{
+      display: flex;
+      ul{
+        display: flex;
+        li{
+          margin-right: 30px;
+          color: var(--theme-color);
+          text-align: center;
+          line-height: 60px;
+        }
+      }
+    }
+  }
 }

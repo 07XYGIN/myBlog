@@ -1,9 +1,11 @@
 :root {       
   --background-color: #F5F5F5; 
   --text-color: rgba(0, 0, 0, 0.5);   
+  --theme-color:rgba(0, 0, 0, 0.88);
 }  
   
 [data-theme="dark"] {      
   --background-color: #000000; 
   --text-color: rgba(255, 255, 255, 0.85); 
+  --theme-color:rgba(255,255,255);
 }

@@ -1,20 +1,28 @@
-import '../Style/App.scss'
-import '../themes.scss'
-import switchTheme from '../Script/themeSwitcher.ts'  
-function ThemeSwitcher() {  
-  const handleDefaultTheme = () => {  
-    switchTheme('light');  
-  };  
-  
-  const handleDarkTheme = () => {  
-    switchTheme('dark');  
-  };  
-  
-  return (  
-    <div className='container'>  
-      <button onClick={handleDefaultTheme}>light</button>  
-      <button onClick={handleDarkTheme}>dark</button>  
-    </div>  
-  );  
-}  
-export default ThemeSwitcher;
+import "../Style/App.scss";
+import { Image } from "antd";
+import Switchs from "../componts/switch.jsx";
+import img from "../assets/logo.jpg";
+function App() {
+  return (
+    <>
+      <div className="container">
+        <div className="user">
+          <div className="left">
+            <Image width={60} src={img} />
+            <p>乔明轩</p>
+          </div>
+          <div className="right">
+          <Switchs />
+            <ul>
+              <li>首页</li>
+              <li>分享</li>
+              <li>文章</li>
+              <li>关于</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+export default App;
