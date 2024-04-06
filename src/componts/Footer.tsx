@@ -1,9 +1,5 @@
 let Footer = () => {
+  return <></>;
+};
 
-  return (
-    <>
-    </>
-  )
-}
-
-export default Footer
+export default Footer;
