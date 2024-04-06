@@ -1,6 +1,8 @@
 import '../Style/App.scss';
 import { Image } from 'antd';
 import Switchs from '../componts/switch.jsx';
+import Footer from '../componts/Footer.js';
+import Nav from '../componts/Nav.js';
 import img from '../assets/logo.jpg';
 function App() {
   return (
@@ -13,14 +15,10 @@ function App() {
           </div>
           <div className="right">
             <Switchs />
-            <ul>
-              <li>首页</li>
-              <li>分享</li>
-              <li>文章</li>
-              <li>关于</li>
-            </ul>
+            <Nav />
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

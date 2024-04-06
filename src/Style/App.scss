@@ -1,32 +1,23 @@
-.container{
+.container {
   width: 1200px;
   margin: 20px auto;
-  img{
+  img {
     border-radius: 20px;
   }
-  .user{
+  .user {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .left{
+    .left {
       display: flex;
-      p{
+      p {
         line-height: 60px;
-        margin-left: 20px ;
+        margin-left: 20px;
         color: var(--text-color);
       }
     }
-    .right{
+    .right {
       display: flex;
-      ul{
-        display: flex;
-        li{
-          margin-right: 30px;
-          color: var(--theme-color);
-          text-align: center;
-          line-height: 60px;
-        }
-      }
     }
   }
 }
