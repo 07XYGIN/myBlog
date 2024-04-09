@@ -10,6 +10,9 @@
     align-items: center;
     .left {
       display: flex;
+      #imgs {
+        margin-top: 10px;
+      }
       p {
         line-height: 60px;
         margin-left: 20px;
@@ -18,6 +21,14 @@
     }
     .right {
       display: flex;
+      #github {
+        font-size: 25px;
+        position: relative;
+        top: 4px;
+        left: -50px;
+        cursor: pointer;
+        color: var(--github-color);
+      }
     }
   }
 }
