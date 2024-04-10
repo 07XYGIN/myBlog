@@ -2,9 +2,12 @@ ul {
   display: flex;
   li {
     margin-right: 30px;
-    color: var(--theme-color);
+
     text-align: center;
     line-height: 60px;
     cursor: pointer;
+    a {
+      color: var(--theme-color);
+    }
   }
 }
