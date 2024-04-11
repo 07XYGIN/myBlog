@@ -4,7 +4,6 @@ import switchTheme from '../Script/themeSwitcher.ts';
 import weatherImage from '../assets/weather.png';
 import darkImage from '../assets/dark.png';
 import { useState } from 'react';
-
 const SwitchThemes = () => {
   const [key, setKey] = useState(0);
   const handleDefaultTheme = () => {

@@ -4,9 +4,12 @@ import Footer from '../componts/Footer.js';
 import Nav from '../componts/Nav.js';
 import img from '../assets/logo.jpg';
 import { GithubOutlined } from '@ant-design/icons';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import '../Style/App.scss';
 let App = () => {
+  let goGithub = () => {
+    window.location.href = 'https://github.com/07XYGIN';
+  };
   return (
     <>
       <div className="container">
@@ -17,7 +20,7 @@ let App = () => {
           </div>
           <div className="right">
             <Switchs />
-            <GithubOutlined id="github" />
+            <GithubOutlined id="github" onClick={goGithub} />
             <Nav />
           </div>
         </div>
