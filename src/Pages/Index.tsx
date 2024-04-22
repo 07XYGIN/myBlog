@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../Style/first.scss';
 import { Button } from 'antd';
 let Index = () => {
@@ -16,10 +17,17 @@ let Index = () => {
           <span id="react">React,</span>
           <span id="python">Python</span>
         </h2>
+        <p className="city animate__animated animate__fadeInDown animate__delay-2s">
+          立志成为一名最出色的全栈开发工程师
+        </p>
       </div>
       <div className="about">
-        <Button>我的博客</Button>
-        <Button>关于作者</Button>
+        <Link to="article">
+          <Button>我的博客</Button>
+        </Link>
+        <Link to="about">
+          <Button>关于作者</Button>
+        </Link>
       </div>
     </div>
   );
