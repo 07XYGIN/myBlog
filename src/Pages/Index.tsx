@@ -14,12 +14,10 @@ let Index = () => {
         <h2 className="animate__animated animate__fadeInDown animate__delay-2s">
           喜欢并热爱着
           <span id="vue">Vue,</span>
-          <span id="react">React,</span>
+          <span id="react">React</span>
+          <span>和</span>
           <span id="python">Python</span>
         </h2>
-        <p className="city animate__animated animate__fadeInDown animate__delay-2s">
-          立志成为一名最出色的全栈开发工程师
-        </p>
       </div>
       <div className="about">
         <Link to="article">
