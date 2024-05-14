@@ -1,0 +1,40 @@
+[data-a] {
+  box-sizing: border-box;
+  .qustion {
+    .q {
+      margin-bottom: 10px;
+      h3 {
+        text-indent: 1em;
+        font-weight: 200;
+        color: var(--github-color);
+      }
+    }
+    .s {
+      margin-bottom: 10px;
+      p {
+        text-indent: 1.5em;
+        font-weight: 200;
+        color: var(--text-color);
+        margin-top: 5px;
+      }
+      ul {
+        display: inline-block;
+        margin-left: 40px;
+        li {
+          margin: 5px;
+          color: var(--github-color);
+          &::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            display: inline-block;
+            border-radius: 50%;
+            background: var(--github-color);
+            vertical-align: middle;
+            margin-right: 14px;
+          }
+        }
+      }
+    }
+  }
+}
