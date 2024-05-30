@@ -1,6 +1,6 @@
 import '../Style/Nav.scss';
 import { Link } from 'react-router-dom';
-let Nav = () => {
+const Nav = () => {
   return (
     <>
       <ul data-ul>

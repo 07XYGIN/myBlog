@@ -21,6 +21,9 @@
         display: inline-block;
         margin-left: 40px;
         li {
+          a{
+            color: var(--linkColor);
+          }
           margin: 5px;
           color: var(--github-color);
           &::before {
