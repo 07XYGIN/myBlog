@@ -1,0 +1,17 @@
+[data-Cards-a]{
+  margin: 30px 95px 10px 0;
+  .ant-card-head-title,p{
+    color: var(--text-color);
+  }
+  p:first-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &:hover{
+    .ant-card{
+      transition: .3s;
+      box-shadow: 1px 1px 3px 1px var(--text-color);
+    }
+  }
+}

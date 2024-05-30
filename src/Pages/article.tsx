@@ -1,5 +1,7 @@
-let About = () => {
-  return <div className="container">文章</div>;
+import Empty from '../commponts/Empty.tsx';
+const About = () => {
+  const a:number = 0
+  return <div className="container">{a==0?<Empty />:<p>1</p>}</div>;
 };
 
 export default About;

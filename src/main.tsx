@@ -6,7 +6,7 @@ import { RouterProvider } from 'react-router-dom';
 import router from './router/router.js';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Suspense>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} />
   </Suspense>
 );
 
