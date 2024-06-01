@@ -10,3 +10,5 @@ export const Blog = () => {
     <><p>789</p></>
   )
 }
+
+export default Blog

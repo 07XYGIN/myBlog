@@ -1,5 +1,6 @@
 [data-Cards-a]{
   margin: 30px 95px 10px 0;
+  position: relative;
   .ant-card-head-title,p{
     color: var(--text-color);
   }
@@ -7,6 +8,9 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  p:last-child{
+    float: right;
   }
   &:hover{
     .ant-card{

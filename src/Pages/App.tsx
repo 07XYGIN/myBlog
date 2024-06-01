@@ -1,7 +1,7 @@
 import { Image } from 'antd';
-import Switchs from '../commponts/switch.js';
-import Footer from '../commponts/Footer.js';
-import Nav from '../commponts/Nav.js';
+import Switchs from '../Components/switch.js';
+import Footer from '../Components/Footer.js';
+import Nav from '../Components/Nav.js';
 import img from '../assets/logo.jpg';
 import { GithubOutlined } from '@ant-design/icons';
 import { Outlet } from 'react-router-dom';

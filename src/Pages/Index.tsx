@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../Style/first.scss';
 import { Button } from 'antd';
-let Index = () => {
+const Index = () => {
   return (
     <div data-container className="">
       <div className="introduce">

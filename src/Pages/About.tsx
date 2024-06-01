@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <ul className="animate__animated animate__fadeInDown animate__delay-2s">
             <li>CSDN: <Link to="https://blog.csdn.net/GXSmile">点击访问</Link> <span id="b">Csdn这里会存放一些我在开发中的笔记,心得。作为我的备忘录</span></li>
-            <li>Github:<Link to="https://github.com/07XYGIN">点击访问</Link><span id="b">Github主要存放我的学习笔记,包括但不限于计算机。此外还有我的项目</span></li>
+            <li>Github:<Link to="https://github.com/07XYGIN">点击访问</Link><span id="b">Github主要存放我的学习笔记,包括但不限于计算机。此外我写的项目也会存放到仓库中</span></li>
           </ul>
         </div>
       </div>
